@@ -12,20 +12,6 @@
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
  */
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdlib.h>
-#include <stdarg.h>
-
-
-/**
- * struct flags - struct containing flags to "turn on"
- * when a flag specifier is passed to _printf()
- * @plus: flag for the '+' character
- * @space: flag for the ' ' character
- * @hash: flag for the '#' character
- */
 typedef struct flags
 {
     int plus;
@@ -88,45 +74,4 @@ int print_address(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
 
-
 #endif
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-main.h[+] [unix] (01:23 20/04/2022)                                                               15,1 All
--- INSERT --
-
